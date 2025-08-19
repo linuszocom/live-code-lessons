@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  console.log('Demo: Pipeline Test')
   const [count, setCount] = useState(0)
 
   return (
