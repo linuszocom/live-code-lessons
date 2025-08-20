@@ -21,5 +21,8 @@ jobs:    # Ett jobb = sekvens av steg (körs virtuellt)
       - name: Install dependecies
         run: npm install # Installerar alla beroenden i package.json
 
+      - name: Run tests
+        run: npm test # Kör testerna i projektet (om det finns några)
+
       - name: Build project
         run: npm run build # Byggsten: bygger React-appen
