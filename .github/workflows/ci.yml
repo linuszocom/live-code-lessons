@@ -1,7 +1,7 @@
 name: CI Pipeline  #Namnet workflowet (syns i github action)
 
 on:
-  push:
+  pull_request: # När en pull request görs
     branches: 
       - main
 
@@ -21,7 +21,7 @@ jobs:    # Ett jobb = sekvens av steg (körs virtuellt)
       - name: Install dependecies
         run: npm install # Installerar alla beroenden i package.json
 
-      - name: Run tests
+      - name: Run tests # G
         run: npm test # Kör testerna i projektet (om det finns några)
 
       - name: Build project
