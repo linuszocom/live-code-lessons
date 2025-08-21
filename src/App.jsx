@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  console.log('Branch rule test')
+  console.log('Branch rule test 2')
   const [count, setCount] = useState(0)
 
   return (
