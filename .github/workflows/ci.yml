@@ -1,7 +1,7 @@
 name: CI Pipeline  #Namnet workflowet (syns i github action)
 
 on:
-  push: # När en pull request görs
+  push:
     branches: 
       - main
 
